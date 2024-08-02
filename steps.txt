@@ -1,0 +1,11 @@
+TECH STACKS:-
+frontend : react tailwind recoil 
+backend : nextjs , express, web socket
+database : postgres , prisma
+language : typescript,
+deployment : cloudflare worker, aws , vercel, rerender, docker, npm , ci/cd
+package manager : yarn , turborepo
+authorization : next-auth, local-jwt
+code fixer : eslint , prettier
+
+STEPS:-
