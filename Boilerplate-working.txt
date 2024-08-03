@@ -5,4 +5,7 @@ Boilerplate
 3. db -> create .env file  and put the db link there and migrate `npx prisma migrate dev --name anyName`
 4. db -> primsa -> create models
 5. db -> generate prisma client `npx prisma generate`
-6. 
+6. can change the recoil structure and names
+
+
+Note : added a docker file, can also this file to setup the repo. 
