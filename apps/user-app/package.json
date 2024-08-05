@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@repo/db": "*",
     "@repo/ui": "*",
+    "@types/bcrypt": "^5.0.2",
+    "bcrypt": "^5.1.1",
     "next": "15.0.0-rc.0",
+    "next-auth": "^4.24.7",
     "react": "19.0.0-rc-f994737d14-20240522",
-    "react-dom": "19.0.0-rc-f994737d14-20240522",
-    "@repo/db" : "*"
+    "react-dom": "19.0.0-rc-f994737d14-20240522"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",

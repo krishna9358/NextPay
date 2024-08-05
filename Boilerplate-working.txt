@@ -5,7 +5,13 @@ Boilerplate
 3. db -> create .env file  and put the db link there and migrate `npx prisma migrate dev --name anyName`
 4. db -> primsa -> create models
 5. db -> generate prisma client `npx prisma generate`
+can check database using `npx prisma studio`
 6. can change the recoil structure and names
+7. .env in user-app wih : 
+JWT_SECRET=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+NEXTAUTH_SECRET=
 
 
 Note : added a docker file, can also this file to setup the repo. 
