@@ -1,9 +1,7 @@
 "use client";
-import {PrismaClient} from "@repo/db/client";
 import { Appbar } from "../../../packages/ui/src/AppBar";
 // import { useBalance } from "@repo/store/useBalance";
 import { signIn, signOut, useSession } from "next-auth/react";
-const client = new PrismaClient();
 
 export default function() {
   const session = useSession();
