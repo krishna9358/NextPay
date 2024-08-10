@@ -9,6 +9,10 @@
   },
   "dependencies": {
     "@prisma/client": "^5.18.0",
+    "@types/node": "^22.2.0",
     "prisma": "^5.18.0"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   }
 }
