@@ -17,3 +17,6 @@ NEXTAUTH_SECRET=
 8. to run  `yarn dev`
 
 Note : added a docker file, can also this file to setup the repo. 
+
+
+Note : remove the node_modules from db folder, and then migrate...if get any issue.
