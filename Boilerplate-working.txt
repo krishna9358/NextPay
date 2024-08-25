@@ -4,6 +4,7 @@ Boilerplate
 2. change the appsname in turborepo
 3. db -> create .env file  and put the db link there and migrate `npx prisma migrate dev --name anyName`
 3.1. docker db -> `docker run -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres`
+3.2. .env syntax -> DATABASE_URL="postgresql://postgres:mysecretpassword@localhost:5432/postgres"
 4. db -> primsa -> create models
 5. db -> generate prisma client `npx prisma generate`
 can check database using `npx prisma studio`
